@@ -41,7 +41,7 @@ export const Sidebar = () => {
 
         <Divider />
 
-        <List>
+        <List data-testid="list-menu">
           {menuItems.map((text, index) => (
             <ListItem button key={text}>
               <ListItemIcon>

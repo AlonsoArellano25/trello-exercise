@@ -27,6 +27,7 @@ export const NewEntry = () => {
       {isAddingEntry ? (
         <>
           <TextField
+            data-testid="textfield-new-entry"
             fullWidth
             sx={{ marginTop: 2, marginBottom: 1 }}
             placeholder="New entry"
@@ -40,10 +41,15 @@ export const NewEntry = () => {
             onBlur={() => setTouched(true)}
           />
           <Box display="flex" justifyContent="space-between">
-            <Button variant="outlined" onClick={() => setIsAddingEntry(false)}>
+            <Button
+              data-testid="button-cancel"
+              variant="outlined"
+              onClick={() => setIsAddingEntry(false)}
+            >
               Cancel
             </Button>
             <Button
+              data-testid="button-save"
               variant="outlined"
               color="secondary"
               endIcon={<SaveOutlinedIcon />}
@@ -55,6 +61,7 @@ export const NewEntry = () => {
         </>
       ) : (
         <Button
+          data-testid="button-add-task"
           startIcon={<AddCircleOutlineOutlinedIcon />}
           fullWidth
           variant="outlined"

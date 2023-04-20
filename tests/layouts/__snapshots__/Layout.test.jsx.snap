@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests in  <Layout /> should match with snapshot 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-i9gxme"
+    data-testid="main-box"
+  >
+    <header
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation4 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionSticky css-7e0s21-MuiPaper-root-MuiAppBar-root"
+    >
+      <div
+        class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-hyum1k-MuiToolbar-root"
+        data-testid="toolbar"
+      >
+        <a
+          class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-rmjmia-MuiTypography-root-MuiLink-root"
+          href="/"
+        >
+          <h6
+            class="MuiTypography-root MuiTypography-h6 css-2ulfj5-MuiTypography-root"
+            data-testid="title"
+          >
+            Trello
+          </h6>
+        </a>
+      </div>
+    </header>
+    <div
+      class="MuiBox-root css-1ecxfl0"
+      data-testid="box"
+    />
+  </div>
+</div>
+`;
